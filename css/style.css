@@ -488,7 +488,7 @@ color: #FFFFFF;
 }
 
 .container-contact-list-email {
-    padding-top: 20px;
+    padding-top: 8px;
     flex-direction: column;
     font-style: normal;
     font-weight: 500;
@@ -496,7 +496,7 @@ color: #FFFFFF;
     line-height: 1.18em;
     color: #FFFFFF;
 }
-.container-contact-list-email-item:nth-last-child() {
+.container-contact-list-email-item {
     padding-top:12px;
 }
 .contact-button {
