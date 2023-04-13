@@ -172,23 +172,30 @@ button {
     padding-left:4px;
 }
 .hero-button {
+    background: #06071B;
     margin-top:60px;
-    background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
-    border-radius: 5px;
     color: #FFFFFF;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 60px;
     padding-right: 60px;
-    border: 1px solid;
     margin-bottom: 146px;
-    /* border-image-source: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%); */
+    border-image: linear-gradient(90.03deg, rgba(0, 197, 235, 1) -1.97%, rgba(181, 68, 254, 1) 89.43%) 1;
+    border-radius: 5px;
+
+    
+    /* background: linear-gradient(rgba(6, 7, 27, 1), rgba(6, 7, 27, 1)) padding-box,linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%), border-box;
+    border-radius: 5px;
+    border: 4px solid transparent; */
+
+
 }
 
 .hero-button:focus,
 .hero-button:hover{
     background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
     border-radius: 5px;
+    
 }
 
 /* ============== /HERO ================*/
@@ -505,6 +512,8 @@ color: #FFFFFF;
     padding:12px 59px 12px 59px;
     color:#FFFFFF;
 }
+
+
 /* ============== /CONTACT ================*/
 
 
