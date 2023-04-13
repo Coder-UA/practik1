@@ -171,6 +171,8 @@ button {
 .hero-list-item-p {
     padding-left:4px;
 }
+
+
 .hero-button {
     background: #06071B;
     margin-top:60px;
@@ -180,6 +182,8 @@ button {
     padding-left: 60px;
     padding-right: 60px;
     margin-bottom: 146px;
+
+
     border-image: linear-gradient(90.03deg, rgba(0, 197, 235, 1) -1.97%, rgba(181, 68, 254, 1) 89.43%) 1;
     border-radius: 5px;
 
