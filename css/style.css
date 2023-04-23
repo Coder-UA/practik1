@@ -594,7 +594,7 @@ button {
     background-position: bottom;
     padding-bottom: 80px;
 }
-.container-h2 {
+.contact-h2 {
     padding-top:80px;
     text-align: center;
     font-style: normal;
@@ -606,16 +606,16 @@ button {
 
 color: #FFFFFF;
 }
-.container-list {
+.contact-list {
     padding-top:80px;
     justify-content: space-between;
     column-gap: 140px;
 
 }
-.container-contact-list {
+.contact-contact-list {
     flex-direction: column;
 }
-.container-contact-list-h3 {
+.contact-contact-list-h3 {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -623,7 +623,7 @@ color: #FFFFFF;
     /* identical to box height */
     color: #FFFFFF;
 }
-.container-contact-list-p {
+.contact-contact-list-p {
     padding-top:20px ;
     font-style: normal;
     font-weight: 500;
@@ -634,11 +634,11 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
-.container-social-list-item {
+.contact-social-list-item {
     margin-top: 20px;
 }
 
-.container-social-list-item:not(:last-child) {
+.contact-social-list-item:not(:last-child) {
     margin-right: 14px;
     
 }
@@ -667,7 +667,7 @@ color: #FFFFFF;
     border-radius: 50%;
     border: 1px solid transparent;
 }
-.container-contact-list-email {
+.contact-contact-list-email {
     padding-top: 8px;
     flex-direction: column;
     font-style: normal;
@@ -676,7 +676,7 @@ color: #FFFFFF;
     line-height: 1.18em;
     color: #FFFFFF;
 }
-.container-contact-list-email-item {
+.contact-contact-list-email-item {
     padding-top:12px;
 }
 
