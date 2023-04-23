@@ -208,9 +208,28 @@
                             </li>
                             <li>
                                 <ul  class="container-social-list list">
-                                    <li class="container-social-list-item"><a>facebook</a></li>
-                                    <li class="container-social-list-item"><a>twitter</a></li>
-                                    <li class="container-social-list-item"><a>instagram</a></li>
+                                    <li class="container-social-list-item">
+                                        <a class="contact-social-list-item-a">
+                                            <svg width="20" height="20">
+                                                <use href="./images/svg.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="container-social-list-item">
+                                        <a class="contact-social-list-item-a">
+                                            <svg width="20" height="20">
+                                                <use href="./images/svg.svg#icon-twitter"></use>
+                                            </svg>
+
+                                        </a>
+                                    </li>
+                                    <li class="container-social-list-item">
+                                        <a class="contact-social-list-item-a">
+                                            <svg width="20" height="20">
+                                                <use href="./images/svg.svg#icon-inkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
@@ -224,11 +243,11 @@
                     <li>
                         <form action="" class="contact-form">
                             <label for="" class="contact-form-label contact-form-label-name">
-                                <input type="text"  placeholder="Name">
-                                <input type="email" placeholder="Email">
+                                <input class="contact-form-input" type="text"  name="user_name" placeholder="Name" pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$" minlength="3" required>
+                                <input class="contact-form-input" type="email" name="user_email" placeholder="Email" required>
                             </label>
                             <label for="" class="contact-form-label">
-                                <textarea type="text" placeholder="Message" class="contact-form-user_text"></textarea>
+                                <textarea type="text" placeholder="Message" name="user_text" class="contact-form-label-user_text"></textarea>
                             </label>
                             <label for="" class="contact-form-label contact-form-btn">
                                 <button class="contact-button">Submit</button>
